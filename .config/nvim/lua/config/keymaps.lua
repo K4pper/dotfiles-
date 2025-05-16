@@ -27,5 +27,8 @@ vim.keymap.set('n', '<leader>fg', '<cmd>Telescope live_grep<cr>', { desc = 'Tele
 vim.keymap.set('n', '<leader>fb', '<cmd>Telescope buffers<cr>', { desc = 'Telescope buffers' })
 vim.keymap.set('n', '<leader>fh', '<cmd>Telescope help_tags<cr>', { desc = 'Telescope help tags' })
 
--- Lazygit
+-- Neotree
 vim.keymap.set('n', '<leader>e', '<cmd>Neotree<cr>')
+
+-- Lazygit
+vim.keymap.set('n', '<leader>lg', '<cmd>LazyGit<cr>')
