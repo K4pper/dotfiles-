@@ -110,6 +110,7 @@ source $ZSH/oh-my-zsh.sh
 alias ls="eza"
 alias vim="nvim"
 alias vi="nvim"
+alias lg="lazygit"
 
 eval "$(zoxide init zsh --cmd cd)"
 
