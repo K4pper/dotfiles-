@@ -1,13 +1,14 @@
 return {
     'nvim-treesitter/nvim-treesitter',
-    opts = {
-        auto_install = false,
-        highlight = { enable = true },
-        indent = { enable = true },
+    lazy = false,
+    config = function()
+      require('nvim-treesitter.configs').setup({
+        highlight = { enable = true, },
+        indent = { enable = true, },
         rainbow = {
           enable = true,
-          extended_mode = true,
-          max_file_lines = nil
+          extended_mode = true
         },
-    },
+      })
+    end,
 }
