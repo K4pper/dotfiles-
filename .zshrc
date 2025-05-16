@@ -111,9 +111,12 @@ alias ls="eza"
 alias vim="nvim"
 alias vi="nvim"
 
-eval "$(starship init zsh)"
+eval "$(zoxide init zsh --cmd cd)"
+
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/kath/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
 # End of Docker CLI completions
+
+eval "$(starship init zsh)"
