@@ -9,7 +9,6 @@ vim.opt.cursorline = true
 
 vim.opt.ignorecase = true
 vim.opt.incsearch = true
-vim.opt.hlsearch = false
 
 vim.opt.expandtab = true
 
