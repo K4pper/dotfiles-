@@ -112,7 +112,11 @@ alias vim="nvim"
 alias vi="nvim"
 alias lg="lazygit"
 
+# Zoxide
 eval "$(zoxide init zsh --cmd cd)"
+
+# Go
+export GOPATH=$HOME
 
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/kath/.docker/completions $fpath)
