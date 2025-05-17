@@ -28,6 +28,7 @@ save_to_clipboard = true
 
 [window]
 title = "Alacritty"
+option_as_alt = "OnlyLeft"
 
 [colors.primary]
 foreground = "#e0def4"
