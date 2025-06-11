@@ -118,6 +118,10 @@ eval "$(zoxide init zsh --cmd cd)"
 # Go
 export GOPATH=$HOME
 
+# Kubernetes
+export KUBECONFIG='./kubeconfig'
+alias k="kubectl"
+
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/kath/.docker/completions $fpath)
 autoload -Uz compinit
