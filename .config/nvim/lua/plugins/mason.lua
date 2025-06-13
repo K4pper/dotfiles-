@@ -11,8 +11,7 @@ return {
             ensure_installed = {
                 'lua_ls',
                 'gopls',
-                'bicep',
-                'marksman'
+                'bicep'
             }
         })
     local bicep_lsp_bin = "/Users/kath/.local/share/nvim/mason/packages/bicep-lsp/extension/bicepLanguageServer/Bicep.LangServer.dll"
