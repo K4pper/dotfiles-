@@ -3,3 +3,5 @@ theme = rose-pine
 shell-integration = zsh
 
 copy-on-select = clipboard
+
+macos-option-as-alt = true
