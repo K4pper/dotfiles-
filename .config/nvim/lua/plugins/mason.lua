@@ -14,7 +14,6 @@ return {
                 'bicep',
                 'helm_ls',
                 'yamlls',
-                'azure_pipelines_ls',
                 'gh_actions_ls'
             }
         })
