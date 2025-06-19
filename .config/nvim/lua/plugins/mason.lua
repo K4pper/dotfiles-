@@ -12,7 +12,9 @@ return {
                 'lua_ls',
                 'gopls',
                 'bicep',
-                'helm_ls'
+                'helm_ls',
+                'azure_pipelines_ls',
+                'gh_actions_ls'
             }
         })
     local bicep_lsp_bin = "/Users/kath/.local/share/nvim/mason/packages/bicep-lsp/extension/bicepLanguageServer/Bicep.LangServer.dll"
