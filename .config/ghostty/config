@@ -5,3 +5,5 @@ shell-integration = zsh
 copy-on-select = clipboard
 
 macos-option-as-alt = true
+
+font-size = 20
